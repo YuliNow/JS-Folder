@@ -1,0 +1,79 @@
+<!--
+ * @author: DoubleW
+ * @create: 2021-04-19 09:08 AM
+ * @license: MIT
+ * @lastAuthor: DoubleW
+ * @lastEditTime: 2021-04-19 14:21 PM
+ * @desc: 计算器方法进阶
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        user-select: none;
+      }
+      .background {
+        width: 500px;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+      }
+      .frame {
+        width: 95%;
+        display: grid;
+        grid-gap: 5px 5px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+      }
+      #ipt {
+        grid-column: 1 / span 4;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+      }
+      .num,.symbol,.result{
+        text-align: center;
+        line-height: 90px;
+        font-size: 30px;
+        border-radius: 12px;
+      }
+      .frame div:active{
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <div class="frame">
+        <input type="text" id="ipt" />
+        <div class="num">1</div>
+        <div class="num">2</div>
+        <div class="num">3</div>
+        <div class="num">4</div>
+        <div class="num">5</div>
+        <div class="num">6</div>
+        <div class="num">7</div>
+        <div class="num">8</div>
+        <div class="num">9</div>
+        <div class="num">0</div>
+        <div class="symbol">+</div>
+        <div class="symbol">-</div>
+        <div class="symbol">*</div>
+        <div class="symbol">/</div>
+        <div class="symbol">c</div>
+        <div class="result">=</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script src="./Cal.js"></script>
