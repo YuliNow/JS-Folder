@@ -1,0 +1,23 @@
+{
+  "name": "hapidemo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon main",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startHttp": "nodemon nodeHTTP.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.0",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/vision": "^6.0.1",
+    "hapi-pino": "^8.3.0",
+    "hapi-plugin-mysql": "^7.2.3",
+    "hapi-swagger": "^14.1.0",
+    "joi": "^17.4.0"
+  }
+}
