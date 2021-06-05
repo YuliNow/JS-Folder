@@ -1,0 +1,271 @@
+<!--
+ * @author: DoubleW
+ * @create: 2021-05-14 14:53 PM
+ * @license: MIT
+ * @lastAuthor: DoubleW
+ * @lastEditTime: 2021-05-25 18:45 PM
+ * @desc: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="client/css/index.css"
+      media="screen and (min-width:1400px)"
+    />
+    <link
+      rel="stylesheet"
+      href="client/css/index.css.map"
+      media="screen and (min-width:1400px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="client/css/mobile.css"
+      media="screen and (max-width:1400px)"
+    />
+    <link
+      rel="stylesheet"
+      href="client/css/mobile.css.map"
+      media="screen and (max-width:1400px)"
+    />
+  </head>
+  <body>
+    <!-- 首页 -->
+    <div class="homePage">
+      <div class="logo"><img src="client/img/logo.png" alt="Logo" /></div>
+      <input type="text" class="user" autofocus maxlength="8" />
+      <input type="password" class="word" />
+    </div>
+
+    <!-- 聊天室 -->
+    <div class="charRoom">
+      <!-- 左边布局 -->
+      <div class="left home-page">
+        <div class="left-top home-page-top">
+          <div class="roomName">无限活力在线聊天室</div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14.98"
+              height="14.995"
+              viewBox="0 0 14.98 14.995"
+              class="tool"
+            >
+              <path
+                id="icn_search"
+                d="M361.769,1276.924a6.584,6.584,0,0,1-4.116,1.441,6.675,6.675,0,1,1,5.284-2.638l3.052,3.076-1.179,1.187Zm-8.963-5.223a4.836,4.836,0,1,0,4.837-4.835A4.841,4.841,0,0,0,352.806,1271.7Z"
+                transform="translate(-351.009 -1264.996)"
+                fill="#a6bad1"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15.002"
+              height="14"
+              viewBox="0 0 15.002 14"
+            >
+              <path
+                id="volume-off-icon-small"
+                d="M401.751,1268.267l-13.878,10.647a.513.513,0,0,1-.315.109.6.6,0,0,1-.561-.636.662.662,0,0,1,.248-.528l13.878-10.647a.513.513,0,0,1,.315-.109.6.6,0,0,1,.561.636A.662.662,0,0,1,401.751,1268.267Zm-13.033,2.823a1.2,1.2,0,0,1,1.119-1.272v0h3.721l3.8-3.527,0,0a1.037,1.037,0,0,1,.708-.292,1.185,1.185,0,0,1,1.112,1.157l-10.465,8.018Zm10.475,2.97v4.667a1.2,1.2,0,0,1-1.122,1.273,1.029,1.029,0,0,1-.659-.246l0,0-3.82-3.151h-.726l6.329-4.849Z"
+                transform="translate(-386.997 -1266)"
+                fill="#a6bad1"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15.002"
+              height="14.997"
+              viewBox="0 0 15.002 14.997"
+            >
+              <path
+                id="Многоугольник_1"
+                data-name="Многоугольник 1"
+                d="M15,10.6,10.607,15H4.393L0,10.607V4.4L4.391,0H10.6L15,4.393Z"
+                transform="translate(0.002 -0.002)"
+                fill="#a6bad1"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="search">
+          <input type="text" class="nameSearch" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="12.728"
+            height="12.765"
+            viewBox="0 0 12.728 12.765"
+            class="cancel"
+          >
+            <g
+              id="组件_9_1"
+              data-name="组件 9 – 1"
+              transform="translate(2.121 2.121)"
+            >
+              <line
+                id="直线_10"
+                data-name="直线 10"
+                y2="12"
+                transform="translate(8.485 0.037) rotate(45)"
+                fill="none"
+                stroke="#7595b9"
+                stroke-linecap="round"
+                stroke-width="3"
+              />
+              <line
+                id="直线_11"
+                data-name="直线 11"
+                y1="12"
+                transform="translate(8.485 8.485) rotate(135)"
+                fill="none"
+                stroke="#7595b9"
+                stroke-linecap="round"
+                stroke-width="3"
+              />
+            </g>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14.98"
+            height="14.995"
+            viewBox="0 0 14.98 14.995"
+          >
+            <path
+              id="icn_search"
+              d="M361.769,1276.924a6.584,6.584,0,0,1-4.116,1.441,6.675,6.675,0,1,1,5.284-2.638l3.052,3.076-1.179,1.187Zm-8.963-5.223a4.836,4.836,0,1,0,4.837-4.835A4.841,4.841,0,0,0,352.806,1271.7Z"
+              transform="translate(-351.009 -1264.996)"
+              fill="#a6bad1"
+            />
+          </svg>
+          <ul class="search-box"></ul>
+        </div>
+        <ul class="left-bottom home-page-bottom"></ul>
+      </div>
+
+      <!-- 右边布局 -->
+      <div class="right home-page2">
+        <div class="right-top home-page2-top">
+          <div class="leave">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20.368"
+              height="18.913"
+              viewBox="0 0 20.368 18.913"
+            >
+              <g id="box-arrow-in-left" transform="translate(-2.25 -3.375)">
+                <path
+                  id="路径_15"
+                  data-name="路径 15"
+                  d="M14.607,20.1a.727.727,0,0,0,0-1.03l-3.851-3.849,3.851-3.85a.728.728,0,0,0-1.03-1.03L9.212,14.7a.727.727,0,0,0,0,1.03L13.577,20.1a.727.727,0,0,0,1.03,0Z"
+                  transform="translate(-2.385 -2.385)"
+                  fill="#a6bad1"
+                  fill-rule="evenodd"
+                />
+                <path
+                  id="路径_16"
+                  data-name="路径 16"
+                  d="M25.8,17.6a.727.727,0,0,0-.727-.727H11.977a.727.727,0,1,0,0,1.455H25.071A.727.727,0,0,0,25.8,17.6Z"
+                  transform="translate(-3.181 -4.771)"
+                  fill="#a6bad1"
+                  fill-rule="evenodd"
+                />
+                <path
+                  id="路径_17"
+                  data-name="路径 17"
+                  d="M4.432,22.288A2.182,2.182,0,0,1,2.25,20.106V5.557A2.182,2.182,0,0,1,4.432,3.375H16.071a2.182,2.182,0,0,1,2.182,2.182V7.74a.727.727,0,1,1-1.455,0V5.557a.727.727,0,0,0-.727-.727H4.432a.727.727,0,0,0-.727.727V20.106a.727.727,0,0,0,.727.727H16.071a.727.727,0,0,0,.727-.727V17.924a.727.727,0,1,1,1.455,0v2.182a2.182,2.182,0,0,1-2.182,2.182Z"
+                  fill="#a6bad1"
+                  fill-rule="evenodd"
+                />
+              </g>
+            </svg>
+          </div>
+          <div class="user-name"><span></span><br /><i>Online</i></div>
+          <div class="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28.814"
+              height="28.815"
+              viewBox="0 0 28.814 28.815"
+            >
+              <g
+                id="组件_8_1"
+                data-name="组件 8 – 1"
+                transform="translate(4.243 4.243)"
+              >
+                <line
+                  id="直线_5"
+                  data-name="直线 5"
+                  x2="28.75"
+                  transform="translate(0 0) rotate(45)"
+                  fill="none"
+                  stroke="#7595b9"
+                  stroke-linecap="round"
+                  stroke-width="6"
+                />
+                <line
+                  id="直线_6"
+                  data-name="直线 6"
+                  x2="28.75"
+                  transform="translate(0 20.329) rotate(-45)"
+                  fill="none"
+                  stroke="#7595b9"
+                  stroke-linecap="round"
+                  stroke-width="6"
+                />
+              </g>
+            </svg>
+          </div>
+
+          <!-- 移动端主页2元素 -->
+          <div class="mobile-svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15.002"
+              height="14"
+              viewBox="0 0 15.002 14"
+            >
+              <path
+                id="volume-off-icon-small"
+                d="M401.751,1268.267l-13.878,10.647a.513.513,0,0,1-.315.109.6.6,0,0,1-.561-.636.662.662,0,0,1,.248-.528l13.878-10.647a.513.513,0,0,1,.315-.109.6.6,0,0,1,.561.636A.662.662,0,0,1,401.751,1268.267Zm-13.033,2.823a1.2,1.2,0,0,1,1.119-1.272v0h3.721l3.8-3.527,0,0a1.037,1.037,0,0,1,.708-.292,1.185,1.185,0,0,1,1.112,1.157l-10.465,8.018Zm10.475,2.97v4.667a1.2,1.2,0,0,1-1.122,1.273,1.029,1.029,0,0,1-.659-.246l0,0-3.82-3.151h-.726l6.329-4.849Z"
+                transform="translate(-386.997 -1266)"
+                fill="#a6bad1"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15.002"
+              height="14.997"
+              viewBox="0 0 15.002 14.997"
+            >
+              <path
+                id="Многоугольник_1"
+                data-name="Многоугольник 1"
+                d="M15,10.6,10.607,15H4.393L0,10.607V4.4L4.391,0H10.6L15,4.393Z"
+                transform="translate(0.002 -0.002)"
+                fill="#a6bad1"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="right-bottom home-page2-bottom">
+          <ul class="messages"></ul>
+
+          <div class="send">
+            <img src="client/img/emoji.png" alt="选择表情" class="emoji" />
+            <div class="ipt" contenteditable="true"></div>
+            <div class="submit">发送(<span>S</span>)</div>
+            <div class="emoji-cont"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/client/js/index.js"></script>
